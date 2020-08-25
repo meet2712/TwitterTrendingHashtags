@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Aug 23 21:49:53 2020
-
-@author: Rutvij
-"""
 
 # import packages
 import os
