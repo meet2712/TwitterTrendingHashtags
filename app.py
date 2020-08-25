@@ -13,7 +13,7 @@ import nltk
 import numpy as np
 
 from collections import deque, Counter
-from data_gathering.api import get_tweet_data
+# from data_gathering.api import get_tweet_data
 
 import dash
 import dash_core_components as dcc
