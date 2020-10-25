@@ -7,4 +7,4 @@
 5. Run app.py to run the dashboard
 
 # If you're using this locally, 
-http://127.0.0.0:80/ to run the file 
+http://0.0.0.0:5000 to run the file 
