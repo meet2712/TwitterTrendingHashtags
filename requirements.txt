@@ -8,15 +8,9 @@ dash_bootstrap_components
 logging
 advertools
 dash_table
-dash_table.FormatTemplate import Format
-dash.exceptions
 threading
 pandas
-plotly.express
-plotly.subplots
 tweepy 
-tweepy
-tweepy.streaming
 json
 unidecode
 textblob
