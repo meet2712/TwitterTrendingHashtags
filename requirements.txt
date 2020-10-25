@@ -1,7 +1,6 @@
 dash
 dash_core_components 
 dash_html_components 
-plotly.graph_objs 
 sqlite3
 dash_bootstrap_components
 logging
