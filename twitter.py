@@ -1,25 +1,10 @@
-# import dash
-# from dash.dependencies import Input, Output, State
-# import dash_core_components as dcc
-# import dash_html_components as html
-# import plotly
-# import random
-# import plotly.graph_objs as go
-# from collections import deque
 from tweepy import Stream
 from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import json
 from unidecode import unidecode
 from textblob import TextBlob
-import re
-import pandas
-
-# app = dash.Dash('Twitter Sentiment analyser')
-
 import sqlite3
-
-# api = tweepy.API(auth)
 
 
 class listener(StreamListener):
@@ -31,7 +16,7 @@ class listener(StreamListener):
             time_ms = data['timestamp_ms']
             analysis = TextBlob(tweet)
             sentiment = analysis.sentiment.polarity
-            print(time_ms)
+            #print(time_ms)
             c.execute("INSERT INTO sentiment (unix, tweet, sentiment) VALUES (?,?,?)",(time_ms,tweet,sentiment))
             conn.commit()
         except KeyError as e:

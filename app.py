@@ -2,14 +2,8 @@ import dash
 from dash.dependencies import Input, Output, State
 import dash_core_components as dcc
 import dash_html_components as html
-import dash_table as dt
-import plotly
-import random
 import plotly.graph_objs as go
-from collections import deque
-import pandas as pd
 import sqlite3
-import time
 import dash_bootstrap_components as dbc
 import logging
 import advertools as adv
