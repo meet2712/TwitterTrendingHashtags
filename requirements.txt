@@ -1,4 +1,3 @@
-nltk==3.3
 advertools==0.10.7
 attrs==20.2.0
 Automat==20.2.0
