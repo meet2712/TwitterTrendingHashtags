@@ -1,4 +1,6 @@
 # TwitterTrendingHashtags
+Dashboard Shows the Trending Hashtags across the Globe and even the Area you live. Dashboard fetches the latest Tweets and even shows Sentiment Score of same.
+
 # Quick start
 1. Clone repo
 2. install requirements.txt using pip install -r requirements.txt
@@ -7,4 +9,4 @@
 5. Run app.py to run the dashboard
 
 # If you're using this locally, 
-http://127.0.0.0:80/ to run the file 
+http://0.0.0.0:5000 to run the file 
